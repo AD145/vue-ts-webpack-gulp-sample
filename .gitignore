@@ -1,0 +1,6 @@
+*.scss.ts
+lib
+dist
+temp
+node_modules
+*.code-workspace

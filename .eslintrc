@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint","eslint-plugin-vue"],
+  "rules": {
+    "arrow-spacing": "warn",
+    "no-unused-vars": "error",
+    "camelcase": "warn",
+    "no-var": "error",
+    "semi": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  "ignorePatterns": [
+    "gulpfile.js",
+    "webpack.config.js",
+    ".babelrc.js",
+    "serve.config.js"
+  ],
+  "overrides": [
+
+  ]
+}

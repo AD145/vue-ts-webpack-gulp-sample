@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "declaration": true,
+    "declarationDir": "lib",
+    "declarationMap": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "inlineSources": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./node_modules/@types/",
+      "./types/",
+      "./node_modules/vuetify/types"
+    ],
+    "types": [
+      "es6-promise",
+      "webpack-env",
+      "node",
+      "vuetify"
+    ],
+    "lib": [
+      "ES5",
+      "DOM",
+      "ES2015.Collection"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "types/**/*.d.ts",
+    "src/global.d.ts",
+    "src/**/*.scss",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}

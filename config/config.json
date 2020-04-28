@@ -1,0 +1,17 @@
+{
+  "bundles": {
+    "main": "./lib/index.js"
+  },
+  "externals": [
+    {
+      "module": "vue",
+      "entry": "https://vspfx.azureedge.net/vue-deps/vue.js",
+      "global": "Vue"
+    },
+    {
+      "module": "vuetify",
+      "entry": "https://cdn.jsdelivr.net/npm/vuetify@2.2.25/dist/vuetify.min.js",
+      "global": "Vuetify"
+    }
+  ]
+}
